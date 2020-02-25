@@ -1,4 +1,6 @@
-class Node
+package NodeCreation;
+
+public class Node
 {
     public String data;
     public Node leftChild;

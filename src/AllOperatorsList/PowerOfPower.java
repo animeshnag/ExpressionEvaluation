@@ -1,6 +1,10 @@
+package AllOperatorsList;
+
+import HashMapCreator.Hashmap;
+
 public class PowerOfPower extends Hashmap implements Operator {
 
-    PowerOfPower(){
+    public PowerOfPower(){
         hm.put("#", "PowerOfPower");
         hmPreference.put("#", 31);
     }

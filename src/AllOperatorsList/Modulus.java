@@ -1,5 +1,9 @@
+package AllOperatorsList;
+
+import HashMapCreator.Hashmap;
+
 public class Modulus extends Hashmap implements Operator {
-    Modulus(){
+    public Modulus(){
         hm.put("%", "Modulus");
         hmPreference.put("%", 11);
     }

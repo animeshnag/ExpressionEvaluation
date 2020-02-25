@@ -1,6 +1,10 @@
+package AllOperatorsList;
+
+import HashMapCreator.Hashmap;
+
 public class Sin extends Hashmap implements Operator {
 
-    Sin(){
+    public Sin(){
         hm.put("sin", "Sin");
         hmPreference.put("sin", 21);
     }

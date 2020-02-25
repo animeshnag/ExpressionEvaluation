@@ -1,8 +1,12 @@
-class Plus extends Hashmap implements Operator  {
+package AllOperatorsList;
+
+import HashMapCreator.Hashmap;
+
+public class Plus extends Hashmap implements Operator  {
 
     String type="binary";
 
-    Plus(){
+    public Plus(){
         hm.put("+", "Plus");
         hmPreference.put("+", 1);
     }

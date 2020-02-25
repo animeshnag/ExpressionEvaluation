@@ -1,8 +1,9 @@
 package AllOperatorsList;
+import HashMapCreator.Hashmap;
 
 public class Log extends Hashmap implements Operator {
 
-    Log(){
+    public Log(){
         hm.put("log", "Log");
         hmPreference.put("log", 21);
     }

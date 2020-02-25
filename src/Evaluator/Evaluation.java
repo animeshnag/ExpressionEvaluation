@@ -1,7 +1,15 @@
-class Evaluation
+package Evaluator;
+import AllOperatorsList.Operator;
+import HashMapCreator.Hashmap;
+import NodeCreation.Node;
+import OperatorCheck.isOperator;
+import ReturnOperatorValue.GetOperatorValue;
+
+
+public class Evaluation
 {
-    static Hashmap hmobj=new Hashmap();
-    static isOperator isOpObj=new isOperator();
+    public static Hashmap hmobj=new Hashmap();
+    public static isOperator isOpObj=new isOperator();
     public static boolean isNumeric(String strNum) {
         if (strNum == null) {
             return false;
@@ -14,20 +22,6 @@ class Evaluation
         }
         return true;
     }
-
-//    public static boolean isOperator(String op){
-//        boolean ans=hmobj.checkOperator(op);
-//        if(ans)
-//            return true;
-//        else
-//            return false;
-//    }
-
-//    public static String getOperatorValue(String op){
-//        String ans=hmobj.getOperatorValue(op);
-//        return ans;
-//    }
-
     public static double addBT(Node root)
     {
         if(isNumeric(root.data))
@@ -68,7 +62,7 @@ class Evaluation
         }
     }
 
-    double evaluate(Node root1){
+    public double evaluate(Node root1){
         double ans=addBT(root1);
         //System.out.println("Result " + ans);
         return(ans);

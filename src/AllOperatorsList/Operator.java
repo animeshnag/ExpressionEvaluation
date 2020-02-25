@@ -1,3 +1,5 @@
+package AllOperatorsList;
+
 public interface Operator {
 
     String type="";

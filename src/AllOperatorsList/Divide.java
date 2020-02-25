@@ -1,10 +1,12 @@
 package AllOperatorsList;
 
+import HashMapCreator.Hashmap;
+
 public class Divide extends Hashmap implements Operator  {
 
     String type="binary";
 
-    Divide(){
+    public Divide(){
         hm.put("/", "Divide");
         hmPreference.put("/", 11);
     }

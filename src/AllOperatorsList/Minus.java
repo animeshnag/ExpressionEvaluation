@@ -1,8 +1,10 @@
+package AllOperatorsList;
+
+import HashMapCreator.Hashmap;
+
 public class Minus extends Hashmap implements Operator {
 
-
-
-    Minus(){
+    public Minus(){
         hm.put("-", "Minus");
         hmPreference.put("-", 1);
     }

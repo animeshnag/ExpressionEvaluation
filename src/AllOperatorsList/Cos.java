@@ -1,8 +1,9 @@
 package AllOperatorsList;
+import HashMapCreator.Hashmap;
 
 public class Cos extends Hashmap implements Operator {
 
-    Cos(){
+    public Cos(){
         hm.put("cos", "Cos");
         hmPreference.put("cos", 21);
     }

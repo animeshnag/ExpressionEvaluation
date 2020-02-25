@@ -1,6 +1,10 @@
+package AllOperatorsList;
+
+import HashMapCreator.Hashmap;
+
 public class Multiply extends Hashmap implements Operator {
 
-    Multiply(){
+    public Multiply(){
         hm.put("*", "Multiply");
         hmPreference.put("*", 11);
     }
