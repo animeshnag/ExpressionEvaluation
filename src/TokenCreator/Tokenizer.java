@@ -1,5 +1,9 @@
 package TokenCreator;
+
+import OperatorCheck.isOperator;
+
 import java.util.ArrayList;
+
 
 public class Tokenizer {
 

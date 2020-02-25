@@ -1,5 +1,9 @@
+package PrintInorder;
+
+import NodeCreation.Node;
+
 public class Inorder {
-    static void inOrder(Node localRoot)
+    public static void inOrder(Node localRoot)
     {
         if (localRoot != null)
         {
